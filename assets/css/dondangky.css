@@ -1,0 +1,54 @@
+body {
+            background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+            font-family: Arial;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            width: 350px;
+            text-align: center;
+        }
+        h2 { color: #333; }
+        input, select {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            width: 95%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #66a6ff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #5589d4;
+        }
+        .tab {
+            margin-bottom: 20px;
+        }
+        .tab button {
+            width: 48%;
+            margin: 2px;
+            background-color: #ddd;
+            color: #333;
+        }
+        .tab button.active {
+            background-color: #66a6ff;
+            color: #fff;
+        }
+        .message {
+            margin-top: 15px;
+            color: red;
+        }

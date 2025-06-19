@@ -1,0 +1,58 @@
+
+body {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            /* padding: 0; */
+        }
+        h1 {
+            color:rgb(230, 0, 0);
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #0094FF;
+            color: white;
+        }
+        .action-buttons a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #193ddd;
+        }
+        .action-buttons a:hover {
+            text-decoration: underline;
+        }
+        .phan-trang {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .phan-trang a, .phan-trang strong {
+            margin: 0 5px;
+            font-size: 16px;
+        }
+        .phan-trang strong {
+            color: red;
+        }
+        .add-button {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .add-button a {
+            padding: 10px 15px;
+            background-color: #2ecc71;  
+            display: inline-block; /* Đảm bảo nó không là block toàn hàng */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .add-button a:hover {
+            background-color: #27ae60;
+        }

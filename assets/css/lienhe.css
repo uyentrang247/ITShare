@@ -1,0 +1,62 @@
+
+.trang-lien-he {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.hop-thong-tin,
+.hop-gop-y {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    margin-bottom: 40px;
+}
+
+.hop-thong-tin h2,
+.hop-gop-y h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.hop-thong-tin p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.ban-do-google {
+    margin-top: 20px;
+}
+
+.bieu-mau-lien-he label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.bieu-mau-lien-he input,
+.bieu-mau-lien-he textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.bieu-mau-lien-he button {
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bieu-mau-lien-he button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,108 @@
+ body{
+  background-image: url("/myweb/assets/images/background.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed; 
+}
+    
+    .banner {
+      position: relative;
+      text-align: center;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold; 
+      max-height: 180px;
+    }
+    
+    .banner-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    .form-container {
+      max-width: 450px;
+      margin:2rem auto 4rem auto;
+      padding:3rem;
+      border-radius: 12px;
+    }
+    .guide {
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+      margin-top: 0.55rem;
+      color: blue;
+      text-align: center;
+      font-weight: bold;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+    .form-group {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-bottom: 0.4rem;
+      font-weight: 600;
+      color: #444;
+    }
+    select, button {
+      padding: 0.55rem 0.8rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      border: 1.8px solid #aaa;
+      transition: border-color 0.3s ease;
+    }
+    select:focus {
+      outline: none;
+      border-color: #0077ff;
+    }
+    button {
+      background: #0077ff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: larger;
+      box-shadow: 0 5px 10px rgba(0,119,255,0.3);
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background: #005fcc;
+    }
+    .form-group.center {
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    /* Phần tài liệu học tập */
+    #tailieu-container {
+      background: #f9fbff;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 1rem 1.2rem;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      color: black;
+      max-width: 420px;
+    }
+    #tailieu-container h4 {
+      color: #0077ff;
+      margin-bottom: 0.6rem;
+      font-weight: 700;
+    }
+    #tailieu-links a {
+      display: block;
+      color: #0056b3;
+      text-decoration: none;
+      margin-bottom: 0.5rem;
+      transition: color 0.3s ease;
+    }
+    #tailieu-links a:hover {
+      color: #003d80;
+      text-decoration: underline;
+    } 

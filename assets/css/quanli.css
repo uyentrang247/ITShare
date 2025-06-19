@@ -1,0 +1,54 @@
+
+.frame_quanli {
+  display: flex;
+  flex-direction: column; /* Đặt hướng của flex là cột */
+  max-width: 900px;  /* Giảm max-width để khung nhỏ hơn */
+  margin: 40px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 20px;  
+}
+
+.top-row {
+  display: flex; 
+  justify-content: space-between;  
+  gap: 20px;  
+}
+
+.left-box, .right-box, .bottom-box {
+  flex: 1;  
+  background-color: rgb(0, 123, 255); 
+  color: white;
+  font-size: 1.6em; /* Chữ lớn hơn */
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+  min-height: 180px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-box a, .right-box a, .bottom-box a{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;  
+  font-weight: 650;
+}
+
+.left-box a:hover, .right-box a:hover {
+  color: #cfd6dd;
+}
+
+/* .bottom-box {
+  background-color: rgb(0, 123, 255);  
+  color: white;
+  font-size: 1.6em; 
+  padding: 30px;
+  text-align: center;
+  border-radius: 15px;
+  min-height: 180px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
